@@ -14607,13 +14607,11 @@ blockquote p {
     position: relative;
     margin-bottom: 80px;
     width: 100%;
-    margin-left: -100px;
   }
   
   .carousel{
     position: relative;
-    margin-top: -55px;
-    margin-bottom: -80px;
+   margin: 0;
   }
   .carousel-control-prev{
     justify-content: start;
@@ -14638,15 +14636,14 @@ blockquote p {
 @media (max-width: 1199.98px) {
   .banner-content{
     position: relative;
-    margin-top: -80px;
+   margin: 0;
     width: 100%;
-    margin-left: -100px;
+    
   }
   
   .carousel{
     position: relative;
-    margin-top: -55px;
-    margin-bottom: -80px;
+   margin: 0;
   }
   .carousel-control-prev{
     justify-content: start;
@@ -14676,15 +14673,18 @@ blockquote p {
 @media (max-width: 991.98px) {
   .banner-content{
     position: relative;
+    margin: 0 !important;
     align-items: center;
     width: 100%;
-   
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
   }
   
   .carousel{
     position: relative;
-    margin-top: -55px;
-    margin-bottom: -80px;
+   
   }
   .carousel-control-prev{
     justify-content: start;
@@ -14714,8 +14714,7 @@ blockquote p {
   
   .carousel{
     position: relative;
-    margin-top: -55px;
-    margin-bottom: -80px;
+    
   }
   .carousel-control-prev{
     justify-content: start;
@@ -14734,7 +14733,8 @@ blockquote p {
 @media (max-width: 575px) {
   .banner-content{
     position: relative;
-    margin-bottom: -10px;
+    margin-left: 1px;
+    margin-bottom: -18px;
    align-items: center;
     width: 100%;
     
@@ -14767,24 +14767,20 @@ blockquote p {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .banner-content{
     position: relative;
-    margin-bottom: 50px;
-    margin-left:0px;
+    margin-bottom: 20px;
+    margin-left:19px;
    align-items: center;
     width: 100%;
-    
-   
   }
 
   .carousel-item img {
     width: 100%;
-    height: 700px;
+    height: 100px;
     object-fit: cover;
   }
- 
-  
   .carousel{
     position: relative;
     margin-top: -50px;
@@ -14801,7 +14797,51 @@ blockquote p {
   }
   .banner-bg{
     position: relative;
-    padding:155px 0 100px;
+    padding:150px 0 100px;
+  }
+}
+
+
+
+@media (max-width: 375px) {
+  .banner-content{
+    position: relative;
+    top: 10px;
+    /* margin-bottom: 50px; */
+    margin-left:0px;
+   align-items: center;
+    width: 100%;
+   
+  }
+
+  .banner-content .title {
+    font-size: 22px;
+  }
+
+
+
+  .carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .carousel{
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: -80px;
+  }
+  .carousel-control-prev{
+    justify-content: start;
+    padding-left: 50px;
+  }
+  .carousel-control-next{
+    justify-content: start;
+    rotate: 180deg;
+    padding-left: 50px;
+  }
+  .banner-bg{
+    position: relative;
+    padding:35px 0 100px;
   }
 }
 
