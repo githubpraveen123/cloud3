@@ -3125,7 +3125,7 @@ textarea {
     21. Brand
 ===============================*/
 .brand-area {
-  padding: 56px 0;
+  padding: 40px 0;
   border-bottom: 1px solid #E6E7F3;
 }
 .brand__area-two {
@@ -3173,6 +3173,7 @@ textarea {
 }
 .brand-item img {
   cursor: pointer;
+  width: 100%;
 }
 .brand__content {
   text-align: center;
